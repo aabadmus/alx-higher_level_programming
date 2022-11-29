@@ -1,7 +1,3 @@
 #!/usr/bin/python3
-
-alpha = 97
-
-while alpha <= 122:
-	print(chr(alpha), end="")
-	alpha += 1
+for c in range(97, 123):
+	print((chr(c)), end="")
