@@ -4,7 +4,6 @@ nqueens backtracking program to print the coordinates of n queens
 on an nxn grid such that they are all in non-attacking positions
 """
 
-
 from sys import argv
 
 if __name__ == "__main__":
@@ -35,7 +34,7 @@ if __name__ == "__main__":
         """determines whether or not to reject the solution"""
         if (already_exists(y)):
             return False
-        i = 0
+        i = 
         while(i < x):
             if abs(a[i][1] - y) == abs(i - x):
                 return False
